@@ -1,0 +1,16 @@
+h2, h4 {
+  color: rgb(160, 37, 129);
+  text-transform: uppercase;
+}
+
+.beginning {
+  color: red;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+footer {
+  font-style: italic;
+}
