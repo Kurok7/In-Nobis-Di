@@ -15,7 +15,6 @@ img {
     width: 400px;
     height: 400px;
     float: left;
-    /* background-color: yellow; only shows for a bried second when I refresh the page*/
 }
 
 .history {
@@ -37,8 +36,6 @@ img {
     font-family: 'Pacifico', sans-serif;
     font-size: 1.4rem;
     line-height: 0px;
-    /* width: 100px; */
-    /* border-bottom: 4px ridge red; */
     text-align: center;
     text-decoration: underline;
     text-decoration-color: red;
@@ -47,7 +44,6 @@ img {
 p {
     line-height: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    /* height: 129px; */
 }
 
 #skills {
@@ -75,21 +71,20 @@ ul {
     text-align: center;
 }
 
-a:link, a:visited {
-    /* background-color: red; */
+.btn:link, .btn:visited {
     color: black;
     border: outset red;
-    padding: 5px;
+    padding: 2px;
     text-align: center;
     text-decoration: none;
     display: inline-flex;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
-a:hover, a:active {
-    background-color: white;
+.btn:hover, .btn:active {
+    background-color: rgba(164, 150, 150, 0.599);
     border-style: inset;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 footer {
