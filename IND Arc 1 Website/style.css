@@ -10,3 +10,10 @@ ul {
 footer {
   font-style: italic;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #121212;
+  }
+}
