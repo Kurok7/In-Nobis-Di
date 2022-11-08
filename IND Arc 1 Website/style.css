@@ -1,5 +1,5 @@
 h2, h4 {
-  color: rgb(160, 37, 129);
+  color: rgb(168, 27, 27);
   text-transform: uppercase;
 }
 
@@ -11,6 +11,7 @@ footer {
   font-style: italic;
 }
 
+/* detects user's system color preferences and uses that first. */
 @media (prefers-color-scheme: dark) {
   body {
     color: #eee;
