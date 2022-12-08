@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 h2, h4 {
   color: rgb(168, 27, 27);
   text-transform: uppercase;
